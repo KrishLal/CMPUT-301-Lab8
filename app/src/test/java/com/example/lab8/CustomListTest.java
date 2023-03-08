@@ -20,7 +20,7 @@ public class CustomListTest {
         list.addCity(city);
         assertEquals(1,list.getCount());
     }
-    //bruh
+    //fixed gg
 
 
 }
