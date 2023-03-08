@@ -20,7 +20,14 @@ public class CustomListTest {
         list.addCity(city);
         assertEquals(1,list.getCount());
     }
-    //fixed gg
+
+    @Test
+    public void testHasCity(){
+        CustomList list = new CustomList(null,citylist);
+        City city = new City("Edmonton","AB");
+        list.addCity(city);
+        assertEquals(true,list.hasCity(city));
+    }
 
 
 }
